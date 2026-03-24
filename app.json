@@ -1,1 +1,20 @@
-{\n  "expo": {\n    "name": "SpeakEasy AI",\n    "slug": "speak-easy-ai",\n    "android": {\n      "package": "com.oculanet.speakai",\n      "permissions": [\n        "RECORD_AUDIO",\n        "INTERNET"\n      ],\n      "adaptiveIcon": {\n        "foregroundImage": "./assets/adaptive-icon.png",\n        "backgroundColor": "#FFFFFF"\n      }\n    }\n  }\n}
+{
+  "expo": {
+    "name": "SpeakEasy AI",
+    "slug": "speak-easy-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.oculanet.speakai",
+      "versionCode": 1,
+      "permissions": ["RECORD_AUDIO", "INTERNET"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6C63FF"
+      }
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}

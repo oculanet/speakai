@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native build output
+android/
+ios/
+
+# Environment variables – never commit real secrets!
+.env
+.env.local
+.env.*.local
+
+# Lock files (keep package-lock.json out; rely on package.json ranges)
+package-lock.json
+
+# Misc
+.DS_Store
+*.log
