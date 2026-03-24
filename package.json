@@ -1,1 +1,30 @@
-{\n  "name": "speakai",\n  "version": "1.0.0",\n  "main": "index.js",\n  "dependencies": {\n    "expo": "~44.0.0",\n    "react-native": "~0.64.0",\n    "@react-native-async-storage/async-storage": "~1.15.6",\n    "expo-clipboard": "~10.2.0",\n    "expo-speech": "~10.2.0",\n    "@expo/vector-icons": "~12.0.0",\n    "typescript": "~4.5.4"\n  },\n  "scripts": {\n    "start": "expo start",\n    "android": "expo run:android",\n    "web": "expo start --web",\n    "build": "expo build"\n  }\n}
+{
+  "name": "speakai",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "build:android": "eas build --platform android"
+  },
+  "dependencies": {
+    "expo": "~50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "expo-av": "~14.0.0",
+    "expo-clipboard": "~6.0.0",
+    "expo-file-system": "~16.0.0",
+    "expo-sharing": "~11.10.0",
+    "expo-speech": "~12.0.0",
+    "expo-status-bar": "~1.11.1",
+    "@expo/vector-icons": "^14.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "~0.73.0",
+    "react-native-dotenv": "^3.4.9",
+    "typescript": "^5.1.3"
+  }
+}
